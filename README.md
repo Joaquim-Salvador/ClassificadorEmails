@@ -96,7 +96,7 @@ Como obter a chave?
 3. Vá em API Keys
 4. Clique em Create new secret key
 5. Copie a chave gerada
-6. Cole isso aqui o arquivo .env OPENAI_API_KEY=coloque_sua_chave_aqui
+6. Cole isso no arquivo .env: OPENAI_API_KEY=coloque_sua_chave_aqui
 
 
 5️⃣ Rodar o sistema
