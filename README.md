@@ -40,7 +40,7 @@ Antes de rodar o sistema, você precisa ter:
 
 ### 1️⃣ Clonar o repositório
 
-git clone https://github.com/seuusuario/email-classifier-gpt.git
+git clone https://github.com/Joaquim-Salvador/ClassificadorEmails.git
 cd email-classifier-gpt/emails
 
 2️⃣ Criar ambiente virtual (recomendado)
