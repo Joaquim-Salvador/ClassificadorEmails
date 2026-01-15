@@ -36,23 +36,6 @@ Antes de rodar o sistema, você precisa ter:
 
 ---
 
-## 📁 Estrutura do projeto
-
-emails/
-│
-├─ app.py # Backend Flask
-├─ requirements.txt # Dependências
-├─ README.md # Este arquivo
-├─ .gitignore # Arquivos que não vão pro Git
-├─ runtime.txt # Versão Python (para Heroku)
-├─ Procfile # Comando de start (para Heroku)
-├─ .env # Chave OPENAI_API_KEY (não subir no Git)
-│
-├─ templates/
-│ └─ index.html # Interface web
-│
-└─ uploads/ # Arquivos enviados pelo usuário
-
 ## 💻 Instalação e execução local
 
 ### 1️⃣ Clonar o repositório
