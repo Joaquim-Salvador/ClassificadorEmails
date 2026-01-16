@@ -64,11 +64,12 @@ def _extract_json_from_text(text: str) -> str | None:
     text = re.sub(r"```json\s*", "", text, flags=re.IGNORECASE)
     text = text.replace("```", "")
 
-    # procurar o primeiro objeto JSON {...}
-    match = re.search(r"(\{(?:[^{}]|(?1))*\})", text, flags=re.DOTALL)
+    # pegar o primeiro objeto JSON simples (não recursivo)
+    match = re.search(r"\{.*?\}", text, flags=re.DOTALL)
     if match:
-        return match.group(1).strip()
+        return match.group(0).strip()
     return None
+
 
 
 def analyze_email(text: str) -> tuple[str, str, str]:
