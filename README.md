@@ -121,7 +121,29 @@ O sistema depende da OpenAI API para classificação e resposta. Sem a chave, n�
 📦 Bibliotecas principais
 Flask
 openai
-PyPDF2 / pdfplumber
+PyPDF2 / pdfplumber 
+
+🔗 Acesse a versão online do sistema
+Você pode usar o sistema diretamente pelo navegador:
+
+👉 https://classificadoremails-1.onrender.com/
+
+Lembre-se: como o site está no plano gratuito do Render, ele pode estar “dormindo”. Veja a seção abaixo para mais detalhes.
+⏳ Importante sobre o Deploy no Render (Atraso de 5 minutos)
+
+Como este projeto está hospedado no Render (plano gratuito), o servidor entra em modo "sleep" (hibernação) quando fica algum tempo sem acessos.
+
+➡️ Isso significa que ao acessar o site pela primeira vez no dia ou após algumas horas parado, ele pode:
+
+Demorar 2 a 5 minutos para carregar
+
+Parecer que está travado
+
+Não responder imediatamente
+
+Isso é normal no Render Free.
+Basta aguardar alguns minutos até o servidor “acordar”.
+Depois disso, o site funciona normalmente e rápido.
 python-dotenv
 Chart.js (via CDN no frontend)
 
